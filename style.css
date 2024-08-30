@@ -1,0 +1,154 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a { 
+    text-decoration: none;
+    color: inherit;
+}
+
+li { 
+    list-style: none;
+}
+body { 
+    background-color: #131313;
+    text-transform:uppercase;
+}
+.navigation { 
+    display: flex;
+    padding-top: 24px;
+}
+
+p { 
+    color: white;
+}
+
+.headline { 
+    display: flex;
+    margin-left: 30px;
+    gap: 50px;
+}
+
+.about_me { 
+    display: flex;
+    justify-content: end;
+    padding-left: 890px;
+}
+
+.header::after { 
+    content: "";
+    display: block;
+    height: 0.1px;
+    width: 98%;
+    position: absolute;
+    top: 9%;
+    left: 2%;
+    right: 2%;
+    background: white;
+}
+
+.about_me {
+    gap: 5px;
+}
+
+.my_info { 
+    padding-top: 200px;
+    padding-left: 50px;
+    display: flex;
+    color: white;
+    letter-spacing: .2rem;
+}
+
+.profession span { 
+    color: #FFEBCD;
+    font-size: 30px;
+}
+
+.profession h1 { 
+    color: #FFF8DC;
+    font-size: 80px;
+}
+
+.description h2 { 
+    font-size: 30px;
+}
+
+.description { 
+    padding-left: 250px;
+    padding-top: 124px;
+}
+.contact_me { 
+    margin-left: 390px;
+    margin-top: 50px;
+    border: 1px solid white;
+    border-radius: 13px;
+    text-align: center;
+}
+
+.contact_me:hover {
+    transition: 0.5s;
+    background-color: #FF00FF;
+}
+
+.about { 
+    display: flex;
+    padding-left: 50px;
+    align-items: center;
+    gap: 150px;
+    padding-top: 50px;
+}
+
+.my_name { 
+    margin-left: 50px;
+    margin-top: 150px;
+}
+
+.my_name h3{ 
+    color: wheat;
+    font-size: 18px;
+    margin-left: 240px;
+
+}
+.my_name h1 { 
+    color: #FFF8DC;
+    font-size: 50px;
+}
+
+.description_myself { 
+    width: 700px;
+    height: auto;
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 28x;
+}
+
+.img_me { 
+    width: 400px;
+    height: 400px;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px wheat;
+    border-radius: 5px;
+}
+
+.description_myself h3 { 
+    color: white;
+}
+.contact_me2 { 
+    width: 250px;
+    border: 1px solid white;
+    border-radius: 13px;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 550px;
+    color: white;   
+}
+
+
+.contact_container h1{ 
+    font-size: 150px;
+    color: white;
+    margin-top: 550px;
+    
+
+}

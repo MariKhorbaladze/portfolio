@@ -1,1 +1,1 @@
-# portfilio
+# This is Mari Khorbaladze's Portfolio. Here you can see information about me and also about my works.
