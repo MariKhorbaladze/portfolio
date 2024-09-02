@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTƒ-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
     <title>Mari Khorbaladze</title>
 </head>
 <body>
@@ -14,12 +15,12 @@
               <a href="index.html">
                 <p>Mari Khorbaladze</p>
               </a>
-              <p>FRONT-END DEVELOPER</p>
+              <p class="front">FRONT-END DEVELOPER</p>
            </div>
            <div class="about_me">
-            <a href="#"><p>works,</p></a>
-            <a href="#"><p>about,</p></a>
-           <a href="#"><p>contact</p>
+            <a href="#works"><p>works,</p></a>
+            <a href="#about"><p>about,</p></a>
+           <a href="#contact"><p>contact</p>
            </div>
          </nav>
         </div>
@@ -41,7 +42,7 @@
             </div>
         </div>
     </section>
-    <section class="aboutme">
+    <section class="aboutme" id="about">
       <div class="my_name">
           <h1>HELLO. I'M MARI</h1>
           <h3>MARI KHORBALADZE</h3>
@@ -60,20 +61,60 @@
       <div class="contact_me2">
         <a href="#"><h1>CONTACT ME</h1></a>
       </div>
+      <section class="Myworks">
+       <div class="github_txt_img">
+        <h1 class="github_text">GITHUB</h1>
+        <a href="https://github.com/MariKhorbaladze" target="_blank"><img class="github_logo" src="imgs/github.png" alt="github logo"></a>
+       </div>
+        <div class="works grow">
+          <div class="my_works" id="works">
+            <h1>a little  <br>javascript game</h1>
+            <a href="https://marikhorbaladze.github.io/jsproject/" target="_blank"><img class="work_images" src="imgs/JsGame.png" alt="javascript game screenshoot"></a>
+          </div>
+          <div class="my_works">
+            <a href="https://marikhorbaladze.github.io/jsgame/" target="_blank"><img class="work_images" src="imgs/game.png" alt="Archer js game screenshoot"></a>
+            <h1>Archer<br>javascript Game</h1>
+          </div>
+          <div class="my_works">
+            <h1>E-commerce<br>Website</h1>
+            <a href="https://marikhorbaladze.github.io/newprojectjs/" target="_blank"><img width="500px" src="imgs/E-commerce.png" alt="E-commerce js  screenshoot"> </a>
+          </div>
+          <div class="my_works">
+            <a href="https://marikhorbaladze.github.io/finalproject/" target="_blank"><img width="500px" src="imgs/portfolio-1.png" alt="E-commerce js  screenshoot"></a>
+            <h1>my <br>First Portfolio</h1>
+          </div>
+        </div>
+        <div class="github_more">
+          <a href="https://github.com/MariKhorbaladze" target="_blank"><h1 class="click_github">click to See more on My GitHub</h1> </a>
+        </div>
     </section>
     <section class="contact_section">
-      <div class="contactme">
+      <div class="contactme" id="contact">
         <div class="contact_container">
           <div class="connect">
             <h1>let's <br> connect</h1>
           </div>
           <div class="connect_text">
-            <h1></h1>
+            <div class="social">
+              <a href="https://www.linkedin.com/in/mari-khorbaladze-7a7944264/" target="_blank"><img class="social_imgs" src="imgs/linkedin.png" alt="linkedin logo"></a>
+             <a href="https://github.com/MariKhorbaladze" target="_blank"> <img class="social_imgs" src="imgs/github.png" alt="github logo"></a>
+              <a href="https://www.instagram.com/khorbaladze_/" target="_blank"><img class="social_imgs" src="imgs/insta.png" alt="instagram logo"></a>
+             <a href="https://www.facebook.com/mari.khorbaladze.7" target="_blank"> <img class="social_imgs"  src="imgs/fbb.webp" alt="facebook logo"></a>
+            </div>
           </div>
         </div>
       </div>
     </section>
+    <div class="bottom"></div>
    </main>
+   <section class="footer">
+      <div class="footer_contact">
+        <a href="#"><h1>CONTACT ME</h1></a>
+      </div>
+   </section>
+   <section class="bottom_section">
+    <div class="bottom"></div>
+   </section>
     <script src="script.js"></script>
 </body>
 </html>
