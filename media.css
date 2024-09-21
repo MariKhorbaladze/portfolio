@@ -1,193 +1,263 @@
 
 @media (min-width: 481px) and (max-width: 768px) {
-    /* .header { 
-        max-width: 768px;
-    } */
-    .navigation {
-      flex-direction: column;
-      padding: 0;
-      margin-top: 50px;
-      gap: 20px;
-      
-    }
-    .about_me { 
-        margin: 0;
-        padding: 0;
-        display: block;
-        margin-left: 50px;
-        display: flex;
-        width: 180px;
+.header { 
+max-width: 768px;
+}
+.navigation {
+flex-direction: column;
+padding: 0;
+margin-top: 50px;
+gap: 20px;
 
-    }
-    .front { 
-        display: none;
-    }
+}
+.about_me { 
+margin: 0;
+padding: 0;
+display: block;
+margin-left: 50px;
+display: flex;
+width: 180px;
 
-    .headline {
-        margin-bottom: 0;
-        
-    }
+}
+.front { 
+display: none;
+}
 
-    .my_info {
-        flex-direction: column;
-        justify-content: center;
-        text-align: left;
-        
-    }
-    .description { 
-       padding: 0;
-       width: 500px;
-       
-    }
-    .contact_me { 
-        padding: 0;
-        margin: 0;
-        margin-left: 155px;
-        margin-top: 50px;
-        width: 250px;
-    }
+.headline {
+margin-bottom: 0;
 
-    .about {
-        flex-direction: column;
-        text-align: left;
-        align-items: start;
+}
 
-    }
+.my_info {
+flex-direction: column;
+justify-content: center;
+text-align: left;
 
-    .description_myself {
-        margin-right: 30px;
-        width: 350px;
-    }
-    .contact_me2 { 
-      margin: 0;
-      margin-top: 50px;
-      justify-content: center;
-      margin-left: 80px;
-    }
+}
+.description { 
+padding: 0;
+width: 500px;
 
-    
-    .my_works { 
-        flex-direction: column;
-        align-items: start;
-        margin-left: 39px;
-    }
-    .click_github {
-        margin: 0;
-        padding: 0;
-        align-items: start;
-        width: 250px;
-        margin-left: 150px;
-        margin-top: 50px;
-    }
+}
+.contact_me { 
+padding: 0;
+margin: 0;
+margin-left: 155px;
+margin-top: 50px;
+width: 250px;
+}
 
-    .connect h1 { 
-        margin-top: 50px;
-        font-size: 50px;
-        margin-left: 20px;
-    }
-    .social { 
-        align-items: start;
-        display: none;
-    }
-    
-    .footer_contact { 
-        margin: 0;
-        
-    }
+.about {
+flex-direction: column;
+text-align: left;
+align-items: start;
+
+}
+
+.description_myself {
+margin-right: 30px;
+width: 350px;
+}
+.contact_me2 { 
+margin: 0;
+margin-top: 50px;
+justify-content: center;
+margin-left: 80px;
+}
+
+
+.my_works { 
+flex-direction: column;
+align-items: start;
+margin-left: 39px;
+}
+.click_github {
+margin: 0;
+padding: 0;
+align-items: start;
+width: 250px;
+margin-left: 150px;
+margin-top: 50px;
+}
+
+.connect h1 { 
+margin-top: 50px;
+font-size: 50px;
+margin-left: 20px;
+}
+.social { 
+align-items: start;
+display: none;
+}
+
+.footer_contact { 
+margin: 0;
+
+}
 }
 
 
 @media (min-width: 769px) and (max-width: 1024px) {
+.header { 
+max-width: 100%;
+justify-content: center;
+flex-direction: column;
+}
+.my_info { 
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding-right: 250px;
+}
+.headline {
+font-size: 20px;
+flex-direction: column;
+gap: 13px;
+}
+.header::after { 
+width: 100%;
+}
+.profession h1 { 
+font-size: 56px;
+}
 
-    .header { 
-        max-width: 100%;
-        justify-content: center;
-        flex-direction: column;
-        
-    }
-    .profession h1 { 
-        font-size: 36px;
-    }
+.description h2 { 
+font-size: 30px;
+}
 
-    .description h2 { 
-        font-size: 20px;
-    }
+.about_me {
+display: none;
+}
+.my_name h1  { 
+font-size: 28px;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+text-align: center;
+}
+.click_github  { 
+display: none;
+}
+.github_more h4 {
+justify-content: start;
+align-items: center;
+text-align: center;
+padding: 3px 4px;
+width: 130px;
+font-size: 20px;
+flex-direction: column;
+}
 
-    .my_name h1 { 
-        font-size: 28px;
-    }
+.github_text { 
+font-size: 36px;
+}
+.my_name h3 { 
+justify-content: center;
+flex-direction: column;
+align-items: center;
+text-align: center;
+}
 
-    .github_text { 
-        font-size: 36px;
-    }
+.connect_text {
+font-size: 20px;
+text-align: center;
+justify-content: center;
+align-items: center;
+}
 
-    .connect h1 { 
-        font-size: 36px;
-    }
+.click_github, .click_text {
+font-size: 20px;
+}
+.footer h1 { 
+font-size: 20px;
+text-align: center;
+justify-content: center;
+align-items: center;
 
-    .connect_text {
-        font-size: 20px;
-    }
 
-    .click_github, .click_text {
-        font-size: 20px;
-    }
 
-    .my_info {
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        
-    }
-    .description { 
-       padding: 0;
-       width: 500px;
-       
-    }
-    .contact_me { 
-        padding: 0;
-        margin: 0;
-        margin-left: 155px;
-        margin-top: 50px;
-        width: 250px;
-    }
+}
+.contact_me2 { 
+padding: 0;
+margin: 0;
+margin-left: 340px;
+margin-top: 50px;
+width: 250px;
+justify-content: center;
+text-align: center;
+align-items: center;
+flex-direction: column;
+}
+.contact_me { 
+padding: 0;
+margin: 0;
+margin-left: 80px;
+margin-top: 50px;
+width: 250px;
+justify-content: center;
+text-align: center;
+align-items: center;
+flex-direction: column;
 
-    .about { 
-        flex-direction: column;
-    }
+}
+.connect h1 { 
+font-size: 70px;
+text-align: center;
+justify-content: center;
+align-items: center;
+}
+
+.about { 
+flex-direction: column;
+}
 }
 
 @media screen and (max-width: 480px) {
-    .profession h1 { 
-        font-size: 28px;
-    }
+.profession h1 { 
+font-size: 28px;
+}
 
-    .description h2 { 
-        font-size: 18px;
-    }
+.description h2 { 
+font-size: 18px;
+}
 
-    .my_name h1 { 
-        font-size: 24px;
-    }
+.my_name h1 { 
+font-size: 24px;
+}
 
-    .github_text { 
-        font-size: 28px;
-    }
+.github_text { 
+font-size: 28px;
+}
 
-    .connect h1 { 
-        font-size: 28px;
-    }
+.connect h1 { 
+font-size: 28px;
+text-align: center;
+}
 
-    .connect_text {
-        font-size: 18px;
-    }
+.connect_text {
+font-size: 18px;
+}
 
-    .click_github, .click_text {
-        font-size: 18px;
-    }
+.click_github, .click_text {
+font-size: 18px;
+}
 }
 
 
 @media (min-width: 1025px) {
+.about_me { 
+display: none;
+}
+.header { 
+width: 100%;
+}
+.my_info{
+flex-direction: column;
+gap: 1px;
+}
+.headline { 
+flex-direction: column;
+gap: 20px;
+}
 
 }
