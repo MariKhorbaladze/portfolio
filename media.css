@@ -3,6 +3,7 @@
 .header { 
 max-width: 768px;
 }
+
 .navigation {
 flex-direction: column;
 padding: 0;
